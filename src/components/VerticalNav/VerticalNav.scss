@@ -1,0 +1,18 @@
+#v-pills-tab {
+    background: #dedede;
+    min-width: 230px;
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+.nav-pills .nav-link{
+    color: rgb(44, 74, 150);
+    &.active{
+        background: rgb(44, 74, 150) !important;
+        border-radius: 0;
+
+        &:hover{
+            background: lighten(rgb(69, 98, 172), 10) !important;
+        }
+    }
+}
